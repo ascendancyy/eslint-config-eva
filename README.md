@@ -7,8 +7,6 @@
 - `no-param-reassignr`: prop reassignment allowed for `el`
 - `no-unused-expressions`: allow short circuiting (`foo && foo()`)
 
-**Also includes the Vue Eslint Plugin**
-
 ## Install
 
 ```bash
