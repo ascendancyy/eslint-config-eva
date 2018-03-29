@@ -1,6 +1,6 @@
 const config = {
   extends: [
-    require.resolve('eslint-config-airbnb-base'),
+    'airbnb-base',
   ],
   settings: {
     'import/extensions': [
