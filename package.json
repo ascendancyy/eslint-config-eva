@@ -1,0 +1,36 @@
+{
+  "name": "@ascendancyy/eslint-config-eva",
+  "version": "1.0.0",
+  "description": "modified airbnb eslint config including vue plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ascendancyy/eslint-config-eva.git"
+  },
+  "keywords": [
+    "airbnb",
+    "eslint",
+    "vue"
+  ],
+  "author": "Stephen Lam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ascendancyy/eslint-config-eva/issues"
+  },
+  "homepage": "https://github.com/ascendancyy/eslint-config-eva#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-import-resolver-webpack": "^0.8.4",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-vue": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
