@@ -6,6 +6,7 @@
 - `no-debugger`: `'off'` when developing
 - `no-param-reassignr`: prop reassignment allowed for `el`
 - `no-unused-expressions`: allow short circuiting (`foo && foo()`)
+- `import/prefer-default-export`: `'off'`
 
 ## Install
 
