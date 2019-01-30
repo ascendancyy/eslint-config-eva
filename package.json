@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/ascendancyy/eslint-config-eva#readme",
   "dependencies": {
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-import-resolver-webpack": "^0.8.4",
-    "eslint-plugin-import": "^2.9.0"
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-webpack": "^0.11.0",
+    "eslint-plugin-import": "^2.9.16"
   },
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^5.12.1"
   },
   "peerDependencies": {
-    "eslint": ">= 4.0.0"
+    "eslint": ">= 5.0.0"
   }
 }
