@@ -7,6 +7,10 @@
 - `no-param-reassignr`: prop reassignment allowed for `el`
 - `no-unused-expressions`: allow short circuiting (`foo && foo()`)
 - `import/prefer-default-export`: `'off'`
+- *enabled*:
+  - `no-useless-catch`
+  - `require-atomic-updates`
+  - `no-async-promise-executor`
 
 ## Install
 
