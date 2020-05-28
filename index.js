@@ -17,7 +17,14 @@ const config = {
 const rules = {
   semi: ['error', 'always'],
   quotes: ['error', 'single'],
-  'operator-linebreak': ['warn', 'after', { overrides: { '=': 'none' } }],
+  'operator-linebreak': ['warn', 'before', {
+    overrides: {
+      '=': 'none',
+      '?': 'after',
+      ':': 'after',
+    },
+  }],
+  'no-confusing-arrow': ['error', { allowParens: false }],
 
   'no-debugger': process.env.NODE_ENV !== 'development' ? 'error' : 'off',
 
