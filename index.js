@@ -28,7 +28,6 @@ const rules = {
 
   'no-debugger': process.env.NODE_ENV !== 'development' ? 'error' : 'off',
 
-  'no-useless-catch': 'error',
   'no-param-reassign': ['error', {
     props: true,
     ignorePropertyModificationsFor: [
@@ -51,8 +50,8 @@ const rules = {
     allowTaggedTemplates: false,
   }],
 
+  // not yet enabled in airbnb base
   'require-atomic-updates': 'error',
-  'no-async-promise-executor': 'error',
 
   'import/prefer-default-export': 'off',
   'import/no-extraneous-dependencies': ['error', {
